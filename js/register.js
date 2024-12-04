@@ -44,7 +44,7 @@ function verifyName () {
     const reg = /^[a-zA-Z0-9-_]{6,10}$/
 
     if (!reg.test(username.value)) {
-        msg.innerHTML = 'Enter at least 6 characters'
+        msg.innerHTML = 'Enter at least 6-10 characters'
         return false
     }
 
